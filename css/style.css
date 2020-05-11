@@ -1,0 +1,153 @@
+
+/* Fullpage */
+@media (max-width: 650px) {
+  #video {
+    display: none;
+  }
+}
+.fullpage{
+  max-width: 1200px;
+  display: flex;
+}
+/*Centrer en fonction du conteneur*/
+.row, .marges{
+  margin:auto;
+}
+/*Limitation des colonnes */
+.marges{
+  max-width: 950px;
+}
+
+
+/* Couleur de texte */
+
+.enblanc{
+  color: white;
+}
+
+/* Font - modif des Titres */
+.fontgeneral, .fonttitre{
+    font-family: 'Playfair Display', serif;
+}
+.fonttitre, .cover__button:hover{
+  font-weight: bold;
+}
+.ombretext{
+  text-shadow: 0px 1px 4px rgba(0,0,0,0.5);
+}
+/*Barre de navigation*/
+
+
+/*//// Background ////*/
+
+/* Cover */
+#cover{
+  background: url("../Image/landpage.png") center;
+  min-height: 800px;
+}
+.cover__text{
+  margin-top: 510px;
+}
+/* Cover - Booking button*/
+
+
+.cover__button, .cover__button:hover, .cover__button:focus{
+  color: #c19663;
+  border: solid 2px;
+  border-color: #c19663
+
+}
+.cover__button:hover{
+  border:solid 4px;
+
+}
+.cover__button:focus{
+  color: white;
+  background-color: #c19663;
+  box-shadow: none;
+  border-color: #c19663
+}
+/* Diches */
+#dishes, #features{
+  background-color: white;
+  min-height: 600px;
+}
+
+/* Diches - Caroussel */
+.carousel-control-prev-icon {
+  background-image: url("../image/icons/Arow.png");
+}
+.carousel-control-next-icon {
+  background-image: url("../image/icons/Arrowr.png");
+}
+
+figcaption, .box{
+  text-align: center;
+}
+.dishes__title{
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+/* Quotes */
+#quotes{
+  background: url("../image/imageduchef.png") center;
+  background-repeat: no-repeat;
+
+}
+.citation{
+  margin-top: 90px;
+}
+/* Features */
+#features, #quotes, #paralax, #call{
+
+  min-height: 400px;
+}
+.features{
+  margin-bottom: 90px;
+}
+.someicons{
+  vertical-align: baseline;
+}
+.someiconsb{
+  margin-top: 15px;
+}
+.features__titre{
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+/* Paralax */
+#paralax{
+  background: url("../image/paralax.png") center;
+}
+
+.paralax__titre{
+  margin-top: 300px;
+}
+/* Call */
+#call{
+  background: url("../image/container.png")center;
+
+}
+
+.box{
+  background-color: #333333;
+  margin-top: 100px;
+  padding-top: 65px;
+  padding-bottom: 55px;
+}
+/* Footer*/
+
+#footer{
+  background-color: #333333;
+  min-height: 120px;
+}
+
+/*Video*/
+#video{
+  margin-top: 20px;
+}
+#header-img{
+  max-width: 300px;
+}
+
