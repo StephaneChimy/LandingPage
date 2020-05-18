@@ -75,10 +75,10 @@
 
 /* Diches - Caroussel */
 .carousel-control-prev-icon {
-  background-image: url("../image/icons/Arow.png");
+  background-image: url("../Image/icons/Arow.png");
 }
 .carousel-control-next-icon {
-  background-image: url("../image/icons/Arrowr.png");
+  background-image: url("../Image/icons/Arrowr.png");
 }
 
 figcaption, .box{
@@ -91,7 +91,7 @@ figcaption, .box{
 
 /* Quotes */
 #quotes{
-  background: url("../image/imageduchef.png") center;
+  background: url("../Image/imageduchef.png") center;
   background-repeat: no-repeat;
 
 }
@@ -118,7 +118,7 @@ figcaption, .box{
 }
 /* Paralax */
 #paralax{
-  background: url("../image/paralax.png") center;
+  background: url("../Image/paralax.png") center;
 }
 
 .paralax__titre{
@@ -126,7 +126,7 @@ figcaption, .box{
 }
 /* Call */
 #call{
-  background: url("../image/container.png")center;
+  background: url("../Image/container.png")center;
 
 }
 
